@@ -6,6 +6,7 @@ html {
   height: 100%;
   font-size: 62.5%;
 }
+
 :root {
   --main-color: #f3603c;
   --blue: #242d52;
@@ -44,9 +45,11 @@ a {
   margin-right: auto;
   padding: 0 1.5rem;
 }
+
 .header {
   width: 100%;
 }
+
 .header-container {
   width: 100%;
   display: flex;
@@ -55,17 +58,17 @@ a {
   padding-top: 5.6rem;
 }
 
-.header-logo {
-}
 .header-item {
   display: flex;
   gap: 2rem;
 }
+
 .header-list a {
   font-size: 1.3rem;
   font-weight: 500;
   color: var(--blue);
 }
+
 .header-btn {
   width: 13.5rem;
   height: 4rem;
@@ -100,6 +103,7 @@ a {
   align-items: center;
   padding-top: 5rem;
 }
+
 .hero-left {
   display: flex;
   flex-direction: column;
@@ -117,6 +121,7 @@ a {
   width: 35rem;
   margin-bottom: 3rem;
 }
+
 .hero-btn {
   width: 13.5rem;
   height: 4rem;
@@ -131,8 +136,7 @@ a {
   cursor: pointer;
   background-color: #eea08d;
 }
-.hero-right {
-}
+
 .hero-right-item {
   display: flex;
   align-items: center;
@@ -152,9 +156,6 @@ a {
   padding-top: 8rem;
 }
 
-.manage-left {
-}
-
 .manage-left h2 {
   font-size: 4rem;
   font-weight: 700;
@@ -167,15 +168,13 @@ a {
   font-weight: 400;
   max-width: 35rem;
 }
-.manage-right {
-}
-.manage-list {
-}
+
 .manage-list-item {
   display: flex;
   align-items: flex-start;
   gap: 2rem;
 }
+
 .manage-btn {
   padding: 1rem 2.8rem;
   border-radius: 18px;
@@ -183,8 +182,6 @@ a {
   background-color: var(--main-color);
 }
 
-.manage-inner {
-}
 .manage-inner h3 {
   font-size: 1.6rem;
   font-weight: 700;
@@ -199,61 +196,175 @@ a {
 }
 
 .commit {
-    width: 100%;
-    align-items: center;
-    display: flex;
-    flex-direction: column;
-    overflow-x: hidden;
-   
+  width: 100%;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  overflow-x: hidden;
 }
-.commit-title h3{
-    font-size: 4rem;
-    font-weight: 700;
-margin-bottom: 10rem;
+
+.commit-title h3 {
+  font-size: 4rem;
+  font-weight: 700;
+  margin-bottom: 10rem;
 }
+
 .commit-item {
-    display: flex;
-    justify-content: space-between;
-gap: 3rem;
+  display: flex;
+  justify-content: space-between;
+  gap: 3rem;
 }
+
 .commit-list {
-    width: 50.5rem;
-    background-color: #fafafa;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-bottom: 5rem;
-    padding: 0  2rem;
+  width: 50.5rem;
+  background-color: #fafafa;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 5rem;
+  padding: 0 2rem;
 }
 
-.commit-list img{
-    margin-top: -3rem;
-    margin-bottom: 2rem;
+.commit-list img {
+  margin-top: -3rem;
+  margin-bottom: 2rem;
 }
 
-.commit-list h4{
-    font-size: 1.6rem;
-    font-weight: 700;
-    margin-bottom: 2rem;
+.commit-list h4 {
+  font-size: 1.6rem;
+  font-weight: 700;
+  margin-bottom: 2rem;
 }
 
-.commit-list p{
-    font-size: 1.6rem;
-    font-weight: 400;
-    margin-bottom: 2rem;
-    text-align: center;
+.commit-list p {
+  font-size: 1.6rem;
+  font-weight: 400;
+  margin-bottom: 2rem;
+  text-align: center;
 }
 .commit-btn {
-    margin-bottom: 10rem;
+  margin-bottom: 10rem;
+}
+
+.contact {
+  width: 100%;
+  background-color: var(--main-color);
+}
+
+.contact-team {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 10rem;
+  padding-bottom: 10rem;
+}
+.contact-team h2 {
+  font-size: 4rem;
+  font-weight: 700;
+  color: #ffffff;
+  max-width: 50rem;
+}
+
+.contact-team-bnt {
+  width: 13rem;
+  height: 4rem;
+  background-color: #ffffff;
+  font-size: 1.3rem;
+  font-weight: 400;
+  color: var(--main-color);
+  border: none;
+  border-radius: 1.8rem;
+  cursor: pointer;
+}
+
+.footer {
+  width: 100%;
+  background-color: var(--black);
+}
+
+.contact-sub {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding-top: 8rem;
+  padding-bottom: 8rem;
+}
+
+.contact-manage {
+  margin-bottom: 10rem;
+}
+
+.contact-sub-item {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.contact-sub-list a {
+  font-size: 1.5rem;
+  font-weight: 400;
+  color: #ffffff;
+}
+
+.contact-sub-list a:hover {
+  color: var(--main-color);
+}
+
+.contact-inner {
+  display: flex;
+  flex-direction: column;
+  gap: 10rem;
+}
+
+.contact-sub-link {
+  display: flex;
+  gap: 15rem;
+}
+
+.contact-inner-item {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.input {
+  width: 20rem;
+  height: 4rem;
+  background-color: #ffffff;
+  border: none;
+  border-radius: 2rem;
+}
+
+.contact-btn {
+  width: 6.5rem;
+  height: 4.5rem;
+  border-radius: 1.8rem;
+  border: none;
+  color: #ffffff;
+  background-color: var(--main-color);
+  cursor: pointer;
+}
+
+.contact-copyright {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.contact-copyright p {
+  color: #ffffff;
+  margin-top: -8rem;
 }
 
 @media screen and (max-width: 1100px) {
   .hero-right-item img {
     width: 20rem;
   }
+
   .hero-right-item2 img {
     width: 20rem;
   }
+
   .hero-right-item2 {
     padding-left: 12rem;
   }
@@ -283,12 +394,17 @@ gap: 3rem;
   .hero-right-item2 {
     padding-left: 10rem;
   }
+
+  .contact-team h2 {
+    font-size: 3.5rem;
+  }
 }
 
 @media screen and (max-width: 700px) {
   .header-btn {
     display: none;
   }
+
   .hero-left h2 {
     font-weight: 500;
     font-size: 3rem;
@@ -299,9 +415,28 @@ gap: 3rem;
     font-weight: 400;
     width: 70%;
   }
- 
-  .commit{
-    overflow-x:;
+
+  .contact-sub {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    gap: 5rem;
+  }
+
+  .contact-team h2 {
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+
+  .contact-team {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .contact-copyright {
+    justify-content: center;
+    margin-top: 5rem;
   }
 }
 
@@ -309,10 +444,12 @@ gap: 3rem;
   .header-item {
     display: none;
   }
+
   .header-bars {
     display: block;
     transform: translateY(-3px);
   }
+
   .hero-left h2 {
     font-weight: 500;
     font-size: 2.5rem;
@@ -329,9 +466,11 @@ gap: 3rem;
   .hero-right-item2 {
     padding-left: 8rem;
   }
+
   .hero-right-item {
     gap: 0rem;
   }
+
   .manage-btn {
     padding: 1rem 1.8rem;
   }
@@ -343,6 +482,7 @@ gap: 3rem;
     align-items: center;
     justify-content: center;
   }
+
   .manage-item {
     display: block;
   }
@@ -355,6 +495,7 @@ gap: 3rem;
     text-align: center;
     margin-bottom: 3rem;
   }
+
   .manage-left {
     display: flex;
     flex-direction: column;
